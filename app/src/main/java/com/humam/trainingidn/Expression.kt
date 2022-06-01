@@ -24,7 +24,7 @@ fun main() {
     }
 
     //when sebagai pengganti if Else
-    val nilai1 = 81
+    val nilai1 = 80
 
     when{
         nilai1 % 2 == 0 -> println("Ini adalah bilangan genap")
