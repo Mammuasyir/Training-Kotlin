@@ -19,12 +19,10 @@ fun main() {
 //    else
 //        println("$originalInteger is not a palindrome.")
 
-    var kata = "aku"
+    var kata = "dia"
 
     var reversedString = ""
-    var originalString: String
-
-    originalString = kata
+    var originalString: String = kata
 
 //substring berfungsi untuk mengambil beberapa karakter dari sebuah kata/kalimat
     while (kata.length != 0) {
@@ -37,9 +35,9 @@ fun main() {
     else
         println("$originalString is not a palindrome.")
 
-    var namaLengkap = "Mas Junaidi"
-    var namaBelakang = namaLengkap.substring(4,11)
-
-    print(namaBelakang)
+//    var namaLengkap = "Mas Junaidi"
+//    var namaBelakang = namaLengkap.substring(4,11)
+//
+//    print(namaBelakang)
 
 }
